@@ -1,0 +1,83 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+
+h1 {
+    font-family: 'Yomogi', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.out {
+    background-color: rgba(255, 255, 255, 0.9);    
+    height: 90%;
+    width: 70%;
+    max-width: 800px;
+    max-height: 80%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.in {
+    /*border-width: 40px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);*/
+    background-color: rgba(200, 197, 197, 0.3);
+    width: 90%;
+    height: 90%;
+    margin: 5% auto;
+}
+
+h3 {
+    font-family: 'Arial', cursive;
+    color: royalblue;
+    margin-left: 10%;
+    padding-top: 5%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Arial', cursive;
+    color: rgb(9, 9, 80);
+    margin-left: 10%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+blockquote {
+    box-sizing: border-box;
+    border-left: 3px solid;
+    border-left-color: slategray;
+    font-family: 'Arial', cursive;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Arial', cursive;
+    text-align: center;
+    width: 80%;
+    margin: 5% auto;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+footer {
+    font-family: 'Yomogi', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 2% 40%;
+}
